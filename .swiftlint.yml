@@ -1,0 +1,40 @@
+#whitelist_rules:
+
+# MARK: - Properties
+
+  #- colon
+  #- comma
+
+# MARK: - Functions
+
+  #- dynamic_inline
+
+# MARK: - Delegates & Protocols
+
+  #- class_delegate_protocol
+
+# MARK: - Closures
+
+  #- closing_brace
+
+# MARK: - Operators
+
+  #- control_statement
+
+# MARK: - For Additional Configuration
+
+  #- file_length
+  #- function_body_length
+  #- function_parameter_count
+  #- large_tuple
+
+#included: # paths to include during linting. `--path` is ignored if present.
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+#  - Carthage
+#  - Source/ExcludedFolder
+#  - Source/ExcludedFile.swift
+#  - Source/*/ExcludedFile.swift # Exclude files with a wildcard
+
+# MORE INFO: https://github.com/realm/SwiftLint
