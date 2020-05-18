@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		93717DDD2472258F0018C5EE /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93717DDC2472258F0018C5EE /* FollowerListVC.swift */; };
+		93717DDF247230B70018C5EE /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93717DDE247230B70018C5EE /* String+Validation.swift */; };
 		9387859624566F5C00E20A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387859524566F5C00E20A98 /* AppDelegate.swift */; };
 		9387859824566F5C00E20A98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387859724566F5C00E20A98 /* SceneDelegate.swift */; };
 		9387859F24566F5F00E20A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9387859E24566F5F00E20A98 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		93717DDC2472258F0018C5EE /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		93717DDE247230B70018C5EE /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
 		9387859224566F5C00E20A98 /* GitFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9387859524566F5C00E20A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9387859724566F5C00E20A98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				9399C350246BA80800F02FD7 /* GFButton.swift */,
 				93ACB310246BB0740005ACE0 /* GFTextField.swift */,
 				93717DDC2472258F0018C5EE /* FollowerListVC.swift */,
+				93717DDE247230B70018C5EE /* String+Validation.swift */,
 			);
 			path = GitFollowers;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				93D98BE62467AE3D00437310 /* FavoritesListVC.swift in Sources */,
 				93717DDD2472258F0018C5EE /* FollowerListVC.swift in Sources */,
 				9387859624566F5C00E20A98 /* AppDelegate.swift in Sources */,
+				93717DDF247230B70018C5EE /* String+Validation.swift in Sources */,
 				9387859824566F5C00E20A98 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
