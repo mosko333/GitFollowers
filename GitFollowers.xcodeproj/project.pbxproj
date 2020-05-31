@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93614D152483347E009D1529 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93614D142483347E009D1529 /* UIViewController+Ext.swift */; };
 		93717DDD2472258F0018C5EE /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93717DDC2472258F0018C5EE /* FollowerListVC.swift */; };
 		93717DDF247230B70018C5EE /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93717DDE247230B70018C5EE /* String+Validation.swift */; };
 		9387859624566F5C00E20A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387859524566F5C00E20A98 /* AppDelegate.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93614D142483347E009D1529 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		93717DDC2472258F0018C5EE /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		93717DDE247230B70018C5EE /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
 		9387859224566F5C00E20A98 /* GitFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +132,7 @@
 				939551FB247B878800689146 /* GFBodyLabel.swift */,
 				939551FF247B966000689146 /* GFContainerView.swift */,
 				939551FD247B88B600689146 /* GFAlertVC.swift */,
+				93614D142483347E009D1529 /* UIViewController+Ext.swift */,
 			);
 			path = GitFollowers;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93ACB311246BB0740005ACE0 /* GFTextField.swift in Sources */,
+				93614D152483347E009D1529 /* UIViewController+Ext.swift in Sources */,
 				93D98BE42467ADFC00437310 /* SearchVC.swift in Sources */,
 				9399C351246BA80800F02FD7 /* GFButton.swift in Sources */,
 				93D98BE62467AE3D00437310 /* FavoritesListVC.swift in Sources */,
