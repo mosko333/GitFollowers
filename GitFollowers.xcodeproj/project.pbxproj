@@ -126,6 +126,7 @@
 				93F60F12248DF4C7006C0933 /* Custom Views */,
 				93F60F13248DF523006C0933 /* Extention */,
 				93F60F14248DF575006C0933 /* Support */,
+				938785A324566F5F00E20A98 /* Info.plist */,
 			);
 			path = GitFollowers;
 			sourceTree = "<group>";
@@ -186,7 +187,6 @@
 				9387859524566F5C00E20A98 /* AppDelegate.swift */,
 				9387859724566F5C00E20A98 /* SceneDelegate.swift */,
 				938785A024566F5F00E20A98 /* LaunchScreen.storyboard */,
-				938785A324566F5F00E20A98 /* Info.plist */,
 				9387859E24566F5F00E20A98 /* Assets.xcassets */,
 			);
 			path = Support;
