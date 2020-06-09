@@ -25,6 +25,7 @@
 		93D98BE42467ADFC00437310 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D98BE32467ADFC00437310 /* SearchVC.swift */; };
 		93D98BE62467AE3D00437310 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D98BE52467AE3D00437310 /* FavoritesListVC.swift */; };
 		93F60F17248F1393006C0933 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F60F16248F1393006C0933 /* Follower.swift */; };
+		93F60F19248F146C006C0933 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F60F18248F146C006C0933 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		93D98BE32467ADFC00437310 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		93D98BE52467AE3D00437310 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		93F60F16248F1393006C0933 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		93F60F18248F146C006C0933 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				93F60F16248F1393006C0933 /* Follower.swift */,
+				93F60F18248F146C006C0933 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				93D98BE62467AE3D00437310 /* FavoritesListVC.swift in Sources */,
 				93717DDD2472258F0018C5EE /* FollowerListVC.swift in Sources */,
 				939551FE247B88B600689146 /* GFAlertVC.swift in Sources */,
+				93F60F19248F146C006C0933 /* User.swift in Sources */,
 				9387859624566F5C00E20A98 /* AppDelegate.swift in Sources */,
 				939551FA247B852100689146 /* GFTitleLabel.swift in Sources */,
 				93717DDF247230B70018C5EE /* String+Validation.swift in Sources */,
