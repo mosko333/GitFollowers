@@ -43,7 +43,7 @@ class NetworkManager {
                 let followers = try decoder.decode([Follower].self, from: data)
                 completed(followers, nil)
             } catch {
-                completed(nil, error.localizedDescription)
+                completed(nil, "The data received from the server was invalid. Please try again.")
             }
         }
 
