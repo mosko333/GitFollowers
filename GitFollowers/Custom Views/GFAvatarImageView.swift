@@ -19,6 +19,9 @@ class GFAvatarImageView: UIImageView {
     }
 
     private func configure() {
-        
+        layer.cornerRadius = 10
+        clipsToBounds = true
+        image = #imageLiteral(resourceName: "avatar-placeholder")
+        translatesAutoresizingMaskIntoConstraints = false
     }
 }
