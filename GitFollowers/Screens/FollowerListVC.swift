@@ -49,13 +49,13 @@ class FollowerListVC: UIViewController {
     }
 
     private func getFollowers(username: String, page: Int) {
-        NetworkManager.shared.getFollowers(for: username, page: 1) { [weak self] result in
+        NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
             guard let self = self else { return }
 
             switch result {
             case .success(let followers):
                 if followers.count > 100 { self.hasMoreFollowers = false }
-                self.followers = followers
+                self.followers.append(contentsOf: followers)
                 self.updateData()
 
             case .failure(let error):
