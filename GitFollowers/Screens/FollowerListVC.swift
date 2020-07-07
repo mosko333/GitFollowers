@@ -54,6 +54,7 @@ class FollowerListVC: UIViewController {
 
             switch result {
             case .success(let followers):
+                if followers.count > 100 { self.hasMoreFollowers = false }
                 self.followers = followers
                 self.updateData()
 
